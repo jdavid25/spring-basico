@@ -1,0 +1,11 @@
+DROP TABLE usuarios;
+CREATE TABLE usuarios(
+	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(40) NOT NULL,
+    apellido VARCHAR(40) NOT NULL,
+    telefono VARCHAR(40) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(40) NOT NULL
+);
+
+INSERT INTO usuarios (nombre,apellido,telefono,email,password) VALUES ('edgar','poe','3121234455','edgar@poe.com','1234'), ('horacio','grecia','3100001122','horacio@grecia.com','4321');)
